@@ -1,0 +1,192 @@
+h1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.products-scoll {
+    width: 400%;
+    height: 350px;
+    position: absolute;
+    left:0%;
+    top:120px;
+    display: flex;
+    transition-duration: 0.8s;
+}
+.products {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.products-left {
+    width: 500px;
+    vertical-align: middle;
+    position: relative;
+
+}
+.products-left-top {
+    width: 300px;
+}
+.products-left-bottom {
+    margin-top: 20px;
+    width: 300px;
+}
+.products-label {
+    display: flex;
+    align-items: center;
+}
+.products-label-icon {
+    background: no-repeat center;
+    background-image: url(../../../assets/products/icon_IOS.png);
+    width: 20px;
+    height: 20px;
+
+}
+.products-label-content {
+    color: #f8b01a;
+    font-weight: bold;
+    font-size: 16px;
+}
+.products-link-box {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-left: #e3bd07;
+    border-right: #02a9a5;
+    background: no-repeat center;
+    background-image: linear-gradient(to right,#e3bd07 0%,#02a9a5 100%);
+}
+.products-link-cover {
+    position: absolute;
+    top:5px;
+    left:5px;
+    line-height: 30px;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: #f5fbdc;
+}
+.products-link {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.products-right {
+    width: 300px;
+    height: 350px;
+}
+.products-pricture {
+    width: 300px;
+    height: 350px;
+}
+.products-controller {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(27,48,55);
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.products-controller-box {
+    background-color: rgb(27,48,55);
+    width: 700px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    left:330px;
+    transition-duration: 0.8s;
+}
+.products-controller-item {
+    flex-grow: 1;
+    text-align: center;
+    line-height: 70px;
+    z-index: 1;
+    transition-duration:0.8s;
+}
+.products-controller-item-active {
+    color:white;
+}
+.products-controller-camera {
+    position: absolute;
+    bottom: -20px;
+}
+.products-controller-camera-icon {
+    position: absolute;
+    bottom: 98px;
+    left:23%;
+    transition-duration: 0.8s;
+}
+.products-controller-camera-inner1 {
+    width: 70px;
+    height:27px;
+    position: absolute;
+    bottom: 42px;
+    left:18%;
+    border: 1px solid #f8b01a;
+    background-color: #152025;
+
+}
+.products-controller-camera-inner2 {
+    width: 72px;
+    height:15px;
+    position: absolute;
+    bottom: 50px;
+    left:18%;
+    background-color: #152025;
+}
+.products-controller-camera-inner3 {
+    width: 52px;
+    height:22px;
+    position: absolute;
+    bottom: 50px;
+    left:24%;
+    background-color: #152025;
+}
+.products-controller-leftbtn {
+    position: absolute;
+    bottom: 20px;
+    left:220px;
+    border-style: solid;
+    border-width: 15px 20px 15px 20px;
+    border-color: rgb(27,48,55) #f5fbdc rgb(27,48,55) rgb(27,48,55);
+    z-index: 2;
+}
+.products-controller-rightbtn {
+    position: absolute;
+    bottom: 20px;
+    right:220px;
+    border-style: solid;
+    border-width: 15px 20px 15px 20px;
+    border-color: rgb(27,48,55) rgb(27,48,55) rgb(27,48,55) #f5fbdc;
+    z-index: 2;
+}
+.products-controller-left {
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(27,48,55);
+    z-index: 2;
+}
+.products-controller-right {
+    position: absolute;
+    bottom: 0px;
+    right:0;
+    height: 70px;
+    background-color: rgb(27,48,55);
+    z-index: 2;
+    width: 250px;
+
+}

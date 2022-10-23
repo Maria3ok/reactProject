@@ -1,0 +1,21 @@
+.join-anim {
+    position: absolute;
+}
+.join-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-picture {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    z-index: 1;
+}
+.join-btn {
+    width: 163px;
+    height:72px;
+    z-index: 1;
+    background: no-repeat center;
+    background-image: url('../../../assets/join/join_button.png');
+}
